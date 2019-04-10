@@ -14,19 +14,14 @@
   weight = 20
 
 [[main]]
-  name = "开源项目"
+  name = "学习笔记"
   url = "#projects"
-  weight = 30
+  weight = 50
 
 [[main]]
   name = "原创教程"
   url = "#featured"
   weight = 40
-
-[[main]]
-  name = "学习笔记"
-  url = "/tutorial/"
-  weight = 50
 
 [[main]]
   name = "和我联系"
