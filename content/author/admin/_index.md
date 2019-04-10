@@ -9,24 +9,24 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "高级运维开发工程师"
+role = "运维开发工程师"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "", url = "" } ]
+organizations = [ { name = "isless.cn", url = "http://www.isless.cn" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include distributed robotics, mobile computing and programmable matter."
+bio = "我研究兴趣包括：微服务服、务网格、kubernetes生态圈等运维相关的开源项目."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "ansy574671212@hotmail.com"
+email = "andy574671212@hotmail.com"
 
 # List (academic) interests or hobbies
 interests = [
   "微服务/Micro Service",
   "服务网格/Service Mesh",
-  "Kubernetes生态圈",
-  "其他开源项目",
+  "容器编排系统/Kubernetes",
+  "其他主流开源技术",
 ]
 
 # Organizational groups that you belong to (for People widget)
@@ -57,7 +57,7 @@ user_groups = ["Researchers", "Visitors"]
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+  link = "mailto:andy574671212@hotmail.com"  # For a direct email link, use "mailto:test@example.org".
 
 [[social]]
   icon = "github"
@@ -73,6 +73,6 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-蒯文武，高级开发运维工程师，九年运维开发经验，service Mesh社区的拥护者，专注于开源项目的研发和实践，坚守运维一线的工程师。
+蒯文武，高级开发运维工程师，九年运维开发经验，service Mesh社区的拥护者，专注于开源项目的研发和实践，始终坚守运维一线。
 
 座右铭：尽管我们用判断力思考问题，但最终解决问题的还是意志，而不是才智。
