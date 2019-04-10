@@ -1,19 +1,23 @@
 +++
 title = "Openkm文档系统安装部署"
+date = 2019-04-10T11:40:26+08:00
+draft = false
+view = 2
+# Tags and categories
+# For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
+tags = ["openkm","linux","文档系统"]
+categories = ["原创文章"]
 
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-view = 3
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+[image]
+  # Caption (optional)
+  caption = ""
 
-# Optional featured image (relative to `static/img/` folder).
-[header]
-image = ""
-caption = "OpenKM是一个开放源代码的电子文档管理系统，它的特点是可用于大型公司或是中小企业， 适应性比较强。 并且在知识管理方面的加工，提供了更加灵活和成本较低的替代应用。"
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = ""
 +++
-
-
 一、准备工作
 ======
 
@@ -329,7 +333,7 @@ sh /opt/tomcat-8.5.24/bin/shutdown.sh
 
 6、当前语言切换：
 
-![](static/img/openkm_4.png)
+![](openkm_4.png)
 
 五、安装swftools字体
 ======================
@@ -400,3 +404,4 @@ cd /usr/local/share/xpdf/chinese-simplified/CMap
 =====================
 
 默认访问OpenKM的url：http://localhost:8080/OpenKM/ 账号密码默认；
+
